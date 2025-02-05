@@ -1,13 +1,19 @@
-//import express from 'express';
-const express = require('express');
+import express from 'express';
+import dotenv from 'dotenv';
+import { connectDB } from './config/db.js';
 
+dotenv.config();
 const app = express();
 
-app.get('/videos', (req, res) => {
+app.get('/products', (req, res) => {
     res.send('Server is ready');
 });
-   
+  
+console.log(process.env.MONGO_URI);
 
 app.listen(3000, () => {
-  console.log('Server is running on http://localhost:3000');
+  connectDB();
+  console.log('Server is running on http://slocalhost:3000');
 });
+
+

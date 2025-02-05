@@ -13,10 +13,10 @@
 ---
 
 
-## 安装dependency, 
-## express mogoose dotenv 自动添加到了 dependency ， 因为他们是运行时必要的
-## nodemon 是为了自己debug，-D 指的是 add to devDependency ，在package.json下。 
+#### 安装dependency, 
+#### express mogoose dotenv 自动添加到了 dependency ， 因为他们是运行时必要的
+#### nodemon 是为了自己debug，-D 指的是 add to devDependency ，在package.json下。 
 npm install express mogoose dotenv 
 npm install nodemon -D
-## 运行
+#### 运行
 npm run dev
