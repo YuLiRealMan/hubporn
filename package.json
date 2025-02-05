@@ -1,0 +1,28 @@
+{
+  "name": "hubporn",
+  "version": "1.0.0",
+  "description": "本项目旨在开发一个类似 YouTube 的视频分享与直播功能的网站，支持用户观看视频、直播、评论以及分类浏览等功能。该平台采用模块化设计，具有良好的可扩展性和响应式布局，能够适配多种屏幕分辨率。",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuLiRealMan/hubporn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuLiRealMan/hubporn/issues"
+  },
+  "homepage": "https://github.com/YuLiRealMan/hubporn#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mogoose": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
